@@ -1,9 +1,12 @@
 # Проект api_yamdb
-[Адрес проекта](http://hw05.avmark.ru)
-[Админка](http://hw05.avmark.ru/admin)
-[ReDoc](http://hw05.avmark.ru/redoc)
-[API](http://hw05.avmark.ru/api/v1/)
+- [Адрес проекта](http://hw05.avmark.ru)
+- [Админка](http://hw05.avmark.ru/admin)
+- [ReDoc](http://hw05.avmark.ru/redoc)
+- [API](http://hw05.avmark.ru/api/v1/)
 
+```
+**Проект размещен на прерываемом сервере yandex-cloud.** 
+```
 
 Проект YaMDb собирает отзывы пользователей на различные произведения.
 
