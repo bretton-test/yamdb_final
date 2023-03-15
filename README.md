@@ -1,4 +1,10 @@
 # Проект api_yamdb
+[Адрес проекта](http://hw05.avmark.ru)
+[Админка](http://hw05.avmark.ru/admin)
+[ReDoc](http://hw05.avmark.ru/redoc)
+[API](http://hw05.avmark.ru/api/v1/)
+
+
 Проект YaMDb собирает отзывы пользователей на различные произведения.
 
 Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.
@@ -35,33 +41,46 @@
 ## Как запустить проект
 
 Клонировать репозиторий и перейти командной строкой 
-<pre><code>git clone [git@github.com:bretton-test/api_yamdb.git]</code>>
 
-<code>cd api_yamdb</code></pre>
+```
+git clone [git@github.com:bretton-test/api_yamdb.git]
 
+cd api_yamdb
+```
 Создать и активировать виртуальное окружение
 
-<pre><code>python3 -m venv venv</code>
+```
+python3 -m venv venv
 
-<code>source venv/bin/activate</code></pre>
+source venv/bin/activate
+```
 
 Установить зависимости из файла requirements.txt:
 
-<pre><code>python3 -m pip install --upgrade pip</code>
+```
+python3 -m pip install --upgrade pip
 
-<code>pip3 install -r requirements.txt</code></pre>
+pip3 install -r requirements.txt
+```
 
 Выполнить миграции:
 
-<pre><code>python3 manage.py migrate</code></pre>
+```
+python3 manage.py migrate
+
+```
 
 Импортировать данные из csv файла:
 
-<pre><code>bash loadCsv</code></pre>
+```
+bash loadCsv.sh
+```
 
 Запустить проект:
 
-<pre><code>python3 manage.py runserver</code></pre>
+```
+python3 manage.py runserver
+```
 
 Примеры работы API в ReDoc: http://127.0.0.1:8000/redoc/
 
